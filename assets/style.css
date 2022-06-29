@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,600;1,300;1,400&display=swap');
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+.mainComponant{
+    margin-top: 50px;
+}
+.header h2{
+    font-weight: 600;
+}
+.header p{
+    font-size: 20px;
+}
+p{
+    display: inline-block;
+    font-weight: 600;
+    margin: 0px 0px 0px;
+}
+.indexNumber{
+    color:#333;
+    font-weight: 600;
+}
+
+ul{
+    background-color: #333;
+    border-radius: 5px;
+    padding: 20px;
+}
+li{
+    background-color: #fff;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+} 
+.bar{
+    background-color: #333;
+    color: #fff;
+}
+.check{
+    width: 100%;
+    font-weight: 600;
+}
+.over{
+    background-color: #ddd;
+}
+/* .wrong{
+    color:red;
+}
+.right{
+    color:green;
+} */
+
+.dragableLists li.right .person{
+    color:green;
+}
+.dragableLists li.wrong .person{
+    color:red;
+}
+.dragableLists li.over .dragable{
+    background-color: #ddd;
+}
